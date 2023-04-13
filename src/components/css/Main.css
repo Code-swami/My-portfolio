@@ -1,0 +1,282 @@
+@charset "UTF-8";
+@font-face {
+  font-family: amelinda;
+  src: url(../fonts/Amelinda.ttf);
+}
+@font-face {
+  font-family: hertical;
+  src: url(../fonts/Hertical\ Sans\ Regular.otf);
+}
+@font-face {
+  font-family: rambors;
+  src: url(../fonts/RamborsRegular-lgRPX.otf);
+}
+.text-shpere {
+  position: relative;
+  top: 0;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-shpere .tagcloud {
+  display: inline-block;
+  top: 0;
+  left: 0;
+  font-family: hertica;
+  font-weight: 600;
+  letter-spacing: 0.0625em;
+  font-size: 20px;
+}
+.text-shpere .tagcloud .tagcloud--item {
+  color: aqua;
+  text-transform: uppercase;
+}
+.text-shpere .tagcloud .tagcloud--item .tagcloud--item:hover {
+  color: #ff6347;
+}
+
+/* Change color of each text in sphere on hover   */
+.home {
+  background-color: black;
+  height: 100vh;
+}
+.home .social {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.home .social .fa-brands {
+  font-size: 25px;
+  color: #A2A2A2;
+  padding-bottom: 20px;
+}
+.home .social .fa-brands:hover {
+  color: #FFFFFF;
+}
+.home .contents {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.home .contents h1 {
+  color: #FFFFFF;
+  font-family: hertical;
+  font-size: 70px;
+  font-weight: bold;
+}
+.home .contents h1 .firsttxt {
+  color: #c70039;
+}
+.home .contents h4 {
+  color: #FFFFFF;
+  font-size: 40px;
+  font-family: amelinda;
+}
+.home .contents h4 .secondtxt {
+  color: #c70039;
+}
+.home .contents .Typewriter {
+  color: red;
+  white-space: nowrap;
+}
+.home .social2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: right;
+  height: 100vh;
+}
+.home .social2 .fa-solid {
+  font-size: 25px;
+  color: #A2A2A2;
+  padding-bottom: 20px;
+}
+.home .social2 .fa-solid:hover {
+  color: #FFF;
+}
+
+.header .navbar {
+  height: 130px;
+}
+.header .navbar.fullscreen {
+  height: 100vh;
+  background-color: #020202 !important;
+}
+.header .brand {
+  margin: 20px 0 0 30px;
+  color: #A2A2A2;
+  font-size: 60px;
+  font-family: rambors;
+  border: 2px solid #A2A2A2;
+  border-radius: 100px;
+  height: 70px;
+  width: 70px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 20px 0 0 5px;
+}
+.header .brand:hover {
+  color: #FFF;
+  transform: rotate(-50deg);
+  border-color: #FFF;
+  transition: 0.7s ease-in-out;
+  box-shadow: 0 0 10px #FFF;
+}
+.header .toggler {
+  margin: 20px 30px 0 0px;
+  box-shadow: none;
+  border-width: 0px;
+}
+.header .fa-solid {
+  color: #A2A2A2;
+}
+.header .fa-solid:hover {
+  color: #FFF;
+}
+.header .links {
+  color: #A2A2A2;
+  font-size: 40px;
+  text-align: center;
+  font-family: hertical;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+.header .links:hover {
+  color: #FFF;
+}
+
+.about {
+  background-color: #020202;
+  height: auto;
+}
+.about .contents h1 {
+  color: #c70039;
+  font-family: hertical;
+  font-size: 50px;
+  margin-top: 10px;
+  text-align: center;
+  margin-top: 130px;
+}
+.about .contents h1 .firsttxt {
+  color: #FFF;
+}
+.about .contents .stxt1 {
+  color: #c70039;
+  font-family: amelinda;
+  font-size: 30px;
+  text-align: center;
+}
+.about .contents .stxt1 .stxt {
+  color: #FFF;
+}
+.about .content2 {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 80px 0 100px;
+}
+.about .content2 h2 {
+  color: #FFFFFF;
+  font-family: "hertical";
+  font-size: 40px;
+  text-align: left;
+  margin-top: 50px;
+  line-height: 60px;
+}
+.about .content2 h2 .firsttxt2 {
+  color: #c70039;
+}
+.about .content2 .stxt2 {
+  color: #ffffff;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  text-align: left;
+}
+.about .content2 .btn {
+  background-color: transparent;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: #c70039;
+  border: 1px solid #a2a2a2;
+  width: 250px;
+}
+.about .content2 .btn .btn:hover {
+  background-color: #c70039;
+  transition: 0.4s ease-in-out;
+  color: #a2a2a2;
+  border: 1px solid #c70039;
+  width: 250px;
+}
+.about .content3 {
+  margin: 30px 120px 0 0px;
+}
+.about .timeline {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding: 100px 0 0 0;
+}
+.about .timeline .timelinecol {
+  padding: 0 0 0 0;
+}
+.about .skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 70px 0 0 0;
+}
+.about .skills .skilltxt {
+  text-align: center;
+}
+.about .skills .skilltxt .sectxt2 {
+  color: #c70039;
+}
+.about .skills .lskill {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 20px 0 0 0;
+}
+.about .skills .lskill .skillstxt {
+  writing-mode: vertical-rl;
+  text-align: center;
+  color: #fff;
+  transform: rotate(180deg);
+}
+.about .skills .rskill {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.about .skills .rskill .data {
+  height: 400px;
+  padding-right: 40px;
+}
+.about .skills .rskill .data .skillcol {
+  display: flex;
+  margin: 20px 20px 20px 20px !important;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px #141414;
+  width: 170px;
+}
+.about .skills .rskill .data .skillcol .skillimage {
+  width: 100px;
+  height: 100px;
+}/*# sourceMappingURL=Main.css.map */
